@@ -1,0 +1,129 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1823 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"54 D:\Ehsan\Projects\Sensor\Elevator Sensor\Code\Receiver-Method2\Sensor_Receiver.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"337 C:\Program Files (x86)\Microchip\xc8\v1.37\include\pic16f1823.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"1039
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1461
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1510
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1664
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1911
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2049
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"2068
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+[s S52 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"2116
+[s S60 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S64 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S67 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S70 . 1 `S52 1 . 1 0 `S60 1 . 1 0 `S64 1 . 1 0 `S67 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES70  1 e 1 @157 ]
+[s S24 . 1 `uc 1 ADPREF0 1 0 :1:0 
+`uc 1 ADPREF1 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS0 1 0 :1:4 
+`uc 1 ADCS1 1 0 :1:5 
+`uc 1 ADCS2 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2196
+[s S32 . 1 `uc 1 ADPREF 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS 1 0 :3:4 
+]
+[u S36 . 1 `S24 1 . 1 0 `S32 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES36  1 e 1 @158 ]
+[s S113 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"2255
+[u S120 . 1 `S113 1 . 1 0 ]
+[v _LATAbits LATAbits `VES120  1 e 1 @268 ]
+[s S96 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"2299
+[u S103 . 1 `S96 1 . 1 0 ]
+[v _LATCbits LATCbits `VES103  1 e 1 @270 ]
+"3056
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"36 D:\Ehsan\Projects\Sensor\Elevator Sensor\Code\Receiver-Method2\Sensor_Receiver.X\main.c
+[v _F_HighGain F_HighGain `uc  1 e 1 0 ]
+"37
+[v _ADC_Value ADC_Value `ui  1 e 2 0 ]
+"42
+[v _C_IRRX C_IRRX `uc  1 e 1 0 ]
+"43
+[v _IRRXT IRRXT `[32]ui  1 e 64 0 ]
+"46
+[v _START_CONE START_CONE `uc  1 e 1 0 ]
+"47
+[v _STOP_CONE STOP_CONE `uc  1 e 1 0 ]
+"48
+[v _C_CONE C_CONE `uc  1 e 1 0 ]
+"50
+[v _Sum_Of_Noise Sum_Of_Noise `ui  1 e 2 0 ]
+"51
+[v _Sum_Of_Signal Sum_Of_Signal `ui  1 e 2 0 ]
+"52
+[v _N_LED N_LED `uc  1 e 1 0 ]
+"54
+[v _main main `(v  1 e 1 0 ]
+{
+"481
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0

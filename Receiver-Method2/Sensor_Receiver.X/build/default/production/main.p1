@@ -2579,9 +2579,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 86: LATCbits.LATC0 = 1;
 "86
 [e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
-[; ;main.c: 90: _delay((unsigned long)((1000)*(32000000/4000.0)));
+[; ;main.c: 90: _delay((unsigned long)((1200)*(32000000/4000.0)));
 "90
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 1200 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
 [; ;main.c: 93: _delay((unsigned long)((500)*(32000000/4000000.0)));
 "93
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]

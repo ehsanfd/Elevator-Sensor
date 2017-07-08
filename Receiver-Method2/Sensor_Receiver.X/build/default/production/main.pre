@@ -3258,7 +3258,7 @@ LATCbits.LATC0 = 1;
 
 
 
-_delay((unsigned long)((1000)*(32000000/4000.0)));
+_delay((unsigned long)((1200)*(32000000/4000.0)));
 
 
 _delay((unsigned long)((500)*(32000000/4000000.0)));

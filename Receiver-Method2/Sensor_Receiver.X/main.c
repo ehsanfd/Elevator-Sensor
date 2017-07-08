@@ -87,7 +87,7 @@ void main(void) {
     
     // </editor-fold>
        
-    __delay_ms(1000);
+    __delay_ms(1200);
     
     // <editor-fold defaultstate="collapsed" desc="Power Tune">
     __delay_us(500);

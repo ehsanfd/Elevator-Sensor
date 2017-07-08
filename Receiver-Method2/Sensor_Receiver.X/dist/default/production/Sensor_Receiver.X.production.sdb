@@ -13,7 +13,7 @@
 [v _eecpymem eecpymem `(v  1 e 1 0 ]
 "39
 [v _memcpyee memcpyee `(v  1 e 1 0 ]
-"54 D:\Ehsan\Projects\Sensor\Elevator Sensor\Code\Receiver-Method2\Sensor_Receiver.X\main.c
+"54 C:\Users\Ehsan\Documents\Elevator-Sensor\Receiver-Method2\Sensor_Receiver.X\main.c
 [v _main main `(v  1 e 1 0 ]
 "337 C:\Program Files (x86)\Microchip\xc8\v1.37\include\pic16f1823.h
 [v _INTCON INTCON `VEuc  1 e 1 @11 ]
@@ -89,7 +89,7 @@
 [v _LATCbits LATCbits `VES103  1 e 1 @270 ]
 "3056
 [v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
-"36 D:\Ehsan\Projects\Sensor\Elevator Sensor\Code\Receiver-Method2\Sensor_Receiver.X\main.c
+"36 C:\Users\Ehsan\Documents\Elevator-Sensor\Receiver-Method2\Sensor_Receiver.X\main.c
 [v _F_HighGain F_HighGain `uc  1 e 1 0 ]
 "37
 [v _ADC_Value ADC_Value `ui  1 e 2 0 ]
